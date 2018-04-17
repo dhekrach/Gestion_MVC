@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="lib/lib/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="lib/lib/asm.jar"/>
+	<classpathentry kind="lib" path="lib/lib/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/lib/cglib-nodep-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/lib/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/lib/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/lib/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="lib/lib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="lib/lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="lib/lib/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="lib/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="lib/lib/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="lib/lib/jta.jar"/>
+	<classpathentry kind="lib" path="lib/lib/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="lib/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="lib/lib/xerces-2.6.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
